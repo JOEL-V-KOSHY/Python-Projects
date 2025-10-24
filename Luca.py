@@ -18,7 +18,7 @@ import time
 import sys
 from pyzbar.pyzbar import decode
 from googletrans import Translator
-import screen_brightness_control as sbc  # pip install screen-brightness-control
+import screen_brightness_control as sbc  
 
 # ============== CONFIG ==============
 ASSISTANT_NAME = "Luca"
@@ -449,3 +449,4 @@ def process_command(command):
 while True:
     command = get_command()
     process_command(command)
+
